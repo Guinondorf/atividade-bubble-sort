@@ -7,3 +7,11 @@ for (int i = 0; i < tamanho - 1; i++) {
             }
         }
     }
+
+printf("Precos APOS a ordenacao (Criterio: Ordem Crescente):\n");
+    for (int i = 0; i < tamanho; i++) {
+        printf("R$ %.2f \n", precos[i]);
+    }
+
+    return 0;
+}
